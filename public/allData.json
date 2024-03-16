@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "recipe_name": "Basil Chicken Stir-Fry",
+    "recipe_image": "https://i.postimg.cc/05Zr6V6J/pexels-pixabay-357737.jpg",
+    "short_description": "A flavorful and aromatic chicken stir-fry with fresh basil leaves.",
+    "ingredients": [
+      "550 g chicken breast, sliced",
+      "120 ml soy sauce",
+      "200 g basil leaves",
+      "400 g mushrooms, sliced",
+      "120 g grated Parmesan cheese",
+      "3 cloves garlic, minced"
+    ],
+    "preparing_time": 30,
+    "calories": "320 calories"
+  },
+  {
+    "id": 2,
+    "recipe_name": "Spaghetti Carbonara",
+    "recipe_image": "https://i.postimg.cc/RZrkqLQV/pexels-angele-j-128402.jpg",
+    "short_description": "A classic Italian pasta dish with creamy egg sauce, pancetta, and Parmesan cheese.",
+    "ingredients": [
+      "400 g spaghetti",
+      "200 g pancetta, diced",
+      "4 eggs",
+      "100 g grated Parmesan cheese",
+      "2 cloves garlic, minced",
+      "4 tbsp curry powder"
+    ],
+    "preparing_time": 20,
+    "calories": 480
+  },
+  {
+    "id": 3,
+    "recipe_name": "Vegetable Curry",
+    "recipe_image": "https://i.postimg.cc/WpxN6r6x/pexels-engin-akyurt-1435909.jpg",
+    "short_description": "A fragrant and hearty vegetarian curry with mixed vegetables and aromatic spices.",
+    "ingredients": [
+      "2 potatoes, diced",
+      "1 large carrot, sliced",
+      "1 onion, chopped",
+      "200 g cauliflower florets",
+      "400 ml coconut milk",
+      "2 tbsp curry powder"
+    ],
+    "preparing_time": 40,
+    "calories": 250
+  },
+  {
+    "id": 4,
+    "recipe_name": "Grilled Salmon ",
+    "recipe_image": "https://i.postimg.cc/j5j9BgKv/pexels-min-an-1482803.jpg",
+    "short_description": "Juicy grilled salmon fillets drizzled with a tangy lemon butter sauce.",
+    "ingredients": [
+      "4 salmon fillets",
+      "1 lemon, juiced",
+      "50 g butter",
+      "2 tbsp fresh parsley, chopped",
+      "100 g grated Parmesan cheese",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": 15,
+    "calories": "380 calories"
+  },
+  {
+    "id": 5,
+    "recipe_name": "Caprese Salad",
+    "recipe_image": "https://i.postimg.cc/Xq50DHcm/pexels-dana-tentis-691114.jpg",
+    "short_description": "A simple and refreshing salad featuring ripe tomatoes, fresh mozzarella, and fragrant basil leaves.",
+    "ingredients": [
+      "2 large tomatoes, sliced",
+      "200 g fresh mozzarella, sliced",
+      "1 bunch fresh basil leaves",
+      "2 tbsp balsamic vinegar",
+      "2 tbsp extra virgin olive oil",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": 10,
+    "calories": 220
+  },
+  {
+    "id": 6,
+    "recipe_name": "Homemade Pizza",
+    "recipe_image": "https://i.postimg.cc/sDFzZz3r/pexels-maarten-van-den-heuvel-2284166.jpg",
+    "short_description": "Delicious homemade pizza topped with tomato sauce, cheese, and your favorite toppings.",
+    "ingredients": [
+      "1 pre-made pizza dough",
+      "200 g mozzarella cheese, shredded",
+      "200 g tomato sauce",
+      "1 bell pepper, sliced",
+      "100 g sliced pepperoni",
+      "1/2 red onion, sliced"
+    ],
+    "preparing_time": 25,
+    "calories": 420
+  }
+]
