@@ -14,7 +14,12 @@ function App() {
       setCookingCart([...CookingCart, Cooking]);
     }
   };
-  console.log(CookingCart);
+
+  const deleteHandlers = pipering => {
+    const newDatas = CookingCart.filter(item => item.id != pipering.id);
+    setCookingCart(newDatas);
+  };
+
   return (
     <>
       <div className="w-[90%] mx-auto">
@@ -38,11 +43,14 @@ function App() {
             </h2>
           </div>
           <div className=" lg:flex gap-5 mt-12">
-            <div className="lg:w-2/3 ">
+            <div className="lg:w-[63%] ">
               <Shoping handileClick={handileClick}></Shoping>
             </div>
-            <div className=" lg:w-1/3">
-              <TabileBox CookingCart={CookingCart}></TabileBox>
+            <div className=" lg:w-[37%]">
+              <TabileBox
+                CookingCart={CookingCart}
+                deleteHandlers={deleteHandlers}
+              ></TabileBox>
             </div>
           </div>
         </section>
