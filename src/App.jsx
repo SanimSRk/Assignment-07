@@ -7,6 +7,10 @@ import TabileBox from './Compment/MainSection/addTabile/TabileBox';
 
 function App() {
   const [CookingCart, setCookingCart] = useState([]);
+  const [CurrentData, setCurrentData] = useState([]);
+  const [tottleTime, setTottleTime] = useState(0);
+  const [caloriesData, setCaloriesData] = useState(0);
+
   const handileClick = Cooking => {
     console.log(Cooking.id);
     const isExist = CookingCart.find(item => item.id == Cooking.id);
@@ -15,9 +19,15 @@ function App() {
     }
   };
 
-  const deleteHandlers = pipering => {
+  const deleteHandlers = (pipering, time, calories) => {
     const newDatas = CookingCart.filter(item => item.id != pipering.id);
     setCookingCart(newDatas);
+    const newCurrentData = [...CurrentData, pipering];
+    setCurrentData(newCurrentData);
+    const newTimes = tottleTime + time;
+    setTottleTime(newTimes);
+    const newCalories = caloriesData + calories;
+    setCaloriesData(newCalories);
   };
 
   return (
@@ -50,6 +60,9 @@ function App() {
               <TabileBox
                 CookingCart={CookingCart}
                 deleteHandlers={deleteHandlers}
+                CurrentData={CurrentData}
+                tottleTime={tottleTime}
+                caloriesData={caloriesData}
               ></TabileBox>
             </div>
           </div>
