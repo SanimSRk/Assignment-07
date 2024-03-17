@@ -4,7 +4,8 @@ import Banner from './Compment/HadearSection/Banner';
 import Naver from './Compment/HadearSection/Naver';
 import Shoping from './Compment/MainSection/CookingCartd/Shoping';
 import TabileBox from './Compment/MainSection/addTabile/TabileBox';
-
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
 function App() {
   const [CookingCart, setCookingCart] = useState([]);
   const [CurrentData, setCurrentData] = useState([]);
@@ -16,6 +17,8 @@ function App() {
     const isExist = CookingCart.find(item => item.id == Cooking.id);
     if (!isExist) {
       setCookingCart([...CookingCart, Cooking]);
+    } else {
+      toast.warn('already exists !');
     }
   };
 
@@ -56,14 +59,17 @@ function App() {
             <div className="lg:w-[63%] ">
               <Shoping handileClick={handileClick}></Shoping>
             </div>
-            <div className=" lg:w-[37%]">
+            <div className=" lg:w-[37%] lg:mt-0 mt-8">
               <TabileBox
                 CookingCart={CookingCart}
                 deleteHandlers={deleteHandlers}
                 CurrentData={CurrentData}
                 tottleTime={tottleTime}
                 caloriesData={caloriesData}
-              ></TabileBox>
+              >
+                {' '}
+              </TabileBox>
+              <ToastContainer theme="colored" />
             </div>
           </div>
         </section>
