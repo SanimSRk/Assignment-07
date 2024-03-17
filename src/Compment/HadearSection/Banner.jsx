@@ -1,12 +1,12 @@
 const Banner = () => {
   return (
     <div className=" mt-4">
-      <div className="bg-[url('/src/assets/image/Rectangle.png')] lg:p-0 py-7 lg:h-[570px] rounded-lg  bg-cover bg-center r">
+      <div className="bg-[url('/Rectangle.png')] lg:p-0 py-7 lg:h-[570px] rounded-lg  bg-cover bg-center r">
         <div className=" grid h-full items-center text-white text-center my-auto lg:w-2/3 mx-auto ">
           <div>
             <h2 className="font-bold text-3xl lg:text-5xl ">
               Discover an exceptional cooking class tailored for you!
-            </h2>
+            </h2>z
             <p className=" mt-6">
               Cooking is the art and science of preparing food through various
               techniques such as chopping, mixing, heating, and seasoning to

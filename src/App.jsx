@@ -13,7 +13,6 @@ function App() {
   const [caloriesData, setCaloriesData] = useState(0);
 
   const handileClick = Cooking => {
-    console.log(Cooking.id);
     const isExist = CookingCart.find(item => item.id == Cooking.id);
     if (!isExist) {
       setCookingCart([...CookingCart, Cooking]);
