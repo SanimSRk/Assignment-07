@@ -6,7 +6,7 @@ const Banner = () => {
           <div>
             <h2 className="font-bold text-3xl lg:text-5xl ">
               Discover an exceptional cooking class tailored for you!
-            </h2>z
+            </h2>
             <p className=" mt-6">
               Cooking is the art and science of preparing food through various
               techniques such as chopping, mixing, heating, and seasoning to
